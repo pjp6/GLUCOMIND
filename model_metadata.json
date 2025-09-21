@@ -1,0 +1,28 @@
+{
+    "best_model": "BiLSTM",
+    "model_type": "BiLSTM",
+    "performance": {
+        "R2": 0.9979251420305226,
+        "RMSE": 1.5443871069576,
+        "MAE": 1.205806961537782,
+        "MSE": 2.385131536136866
+    },
+    "feature_columns": [
+        "glucose_lag_1",
+        "glucose_lag_3",
+        "glucose_lag_6",
+        "glucose_roll_mean_1h",
+        "hour",
+        "day_of_week",
+        "insulin_bolus",
+        "insulin_basal",
+        "carbs"
+    ],
+    "n_features": 9,
+    "saved_date": "2025-09-10 11:44:42",
+    "file_paths": {
+        "model": "best_model.pkl",
+        "scaler_X": "scaler_X.pkl",
+        "scaler_y": "scaler_y.pkl"
+    }
+}
